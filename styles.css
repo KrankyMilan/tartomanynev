@@ -5,6 +5,7 @@ body {
   background-position-y: center;
   background-attachment: fixed;
   background-size: cover;
+  background-image: url(back.jpg);
 }
 
 #tartalom {
@@ -39,6 +40,11 @@ h1, h2 {
   font-variant: small-caps;
 }
 
+h3{
+  font-style: italic;
+  text-indent: 10px;
+}
+
 p.kepfelirat {
   font-size: 1.1em;
   margin: 0px;
@@ -55,3 +61,11 @@ p {
   font-weight: bold;
 }
 
+a, a:active{
+  text-decoration: none;
+  color: yellow;
+} 
+
+a:hover{
+  color:red
+}
